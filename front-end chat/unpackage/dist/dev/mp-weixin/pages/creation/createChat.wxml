@@ -1,0 +1,1 @@
+<view class="page-main"><lz-indexed-list vue-id="5b27bdab-1" dataList="{{users}}" name="{{name}}" img="{{img}}" currentUserID="{{id}}" bind:__l="__l"></lz-indexed-list></view>

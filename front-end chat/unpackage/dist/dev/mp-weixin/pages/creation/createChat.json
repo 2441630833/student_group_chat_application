@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "lz-indexed-list": "/uni_modules/lz-indexed-list/components/lz-indexed-list/lz-indexed-list"
+  }
+}

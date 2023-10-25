@@ -1,0 +1,63 @@
+/**
+ * this uni-app's style variables setting
+ *
+ * 
+ * 
+ *
+ */
+/* Colour setting */
+/* behaviour colour */
+/* word basic colour */
+/* backgroud colour */
+/*  */
+/* Font size setting */
+/* word size */
+/* image size */
+/* Border Radius */
+/* row spacing */
+/* column spacing*/
+/* Transparency */
+/* article scene */
+.status-bar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 88rpx;
+  padding-top: 25px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  z-index: 998;
+  color: #272832;
+  transition-property: all;
+  background: rgba(255, 255, 255, 0.96);
+}
+.status-bar .login-c {
+  width: 60rpx;
+  height: 60rpx;
+  padding-top: 22rpx;
+  padding-left: 32rpx;
+}
+.content {
+  padding: 160rpx 28rpx 160rpx;
+}
+.login-back {
+  width: 20rpx;
+  height: 34rpx;
+}
+.input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 54rpx;
+  padding: 0 24rpx;
+  width: 1800rpx;
+  height: 96rpx;
+  background: #f2f2f2;
+  border-radius: 24rpx;
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #191d23;
+}
+

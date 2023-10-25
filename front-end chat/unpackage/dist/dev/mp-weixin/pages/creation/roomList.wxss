@@ -1,0 +1,133 @@
+/**
+ * this uni-app's style variables setting
+ *
+ * 
+ * 
+ *
+ */
+/* Colour setting */
+/* behaviour colour */
+/* word basic colour */
+/* backgroud colour */
+/*  */
+/* Font size setting */
+/* word size */
+/* image size */
+/* Border Radius */
+/* row spacing */
+/* column spacing*/
+/* Transparency */
+/* article scene */
+.status-bar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 88rpx;
+  padding-top: 25px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  color: #272832;
+  transition-property: all;
+  background: rgba(234, 231, 231, 0.96);
+}
+.status-bar .login-c {
+  width: 60rpx;
+  height: 60rpx;
+  padding-top: 23rpx;
+  padding-left: 23rpx;
+}
+.status-bar .login-back {
+  width: 20rpx;
+  height: 34rpx;
+}
+.status-bar .add {
+  width: 40rpx;
+  height: 40rpx;
+  padding-top: 23rpx;
+  right: 36rpx;
+}
+._ul {
+  list-style: none;
+}
+.scroll-Y {
+  position: fixed;
+  top: 100rpx;
+  left: 0;
+  right: 0;
+  bottom: 0rpx;
+}
+.room-item {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #f1f1f1;
+  height: 140rpx;
+  /* This will make sure the entire grid cell is filled */
+}
+.room-item .avatar {
+  position: relative;
+  width: 130rpx;
+  height: 130rpx;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 columns grid, adjust as needed */
+  grid-template-rows: repeat(2, 1fr);
+  /* 2 rows grid, adjust as needed */
+}
+.room-item .tip {
+  width: 18rpx;
+  height: 18rpx;
+  background: #ff4d3c;
+  position: absolute;
+  top: 5rpx;
+  right: 0rpx;
+  border-radius: 50%;
+  z-index: 10;
+}
+.room-item .avatar-image {
+  width: 90%;
+  height: 90%;
+  margin-top: 3rpx;
+  background: #f3f0f0;
+  padding: 3px;
+  border-radius: 7rpx;
+  object-fit: cover;
+}
+.room-item .single-image {
+  border-radius: 15rpx;
+  padding: 4.7px;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.room-item .infos {
+  flex-grow: 1;
+}
+.room-item .infos .line {
+  display: flex;
+  flex-grow: 1;
+  line-height: 60rpx;
+  height: 60rpx;
+}
+.room-item .infos .line .name {
+  font-size: 34rpx;
+  color: #606060;
+  flex-grow: 1;
+  padding-left: 30rpx;
+}
+.room-item .infos .line .time {
+  text-align: right;
+  font-size: 20rpx;
+  color: #6f6f6f;
+  padding-right: 30rpx;
+}
+.room-item .infos .line .descript {
+  padding-left: 30rpx;
+  font-size: 24rpx;
+  color: #6f6f6f;
+  line-height: 40rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 580rpx;
+}
+

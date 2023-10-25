@@ -1,0 +1,46 @@
+
+.pop-dialog{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	z-index: 999;
+	position: relative;
+	top:100rpx;
+}
+.triangle {
+    width: 0;
+    height: 0;
+	border-right: 18rpx solid transparent;
+    border-left: 18rpx solid transparent;
+    border-bottom: 18rpx solid yourColor; /* replace 'yourColor' with the color you want */
+    position: absolute;
+    top: -18rpx;
+	right: 20rpx;
+}
+.pop-body{
+	border-radius: 25px;
+	width: 300rpx;
+	margin-right: 10rpx;
+}
+.pop-item{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+.pop-line-full{
+	width: 300rpx;
+	height: 1rpx;
+}
+.pop-line{
+	width: 300rpx;
+	height: 1rpx;
+}
+.pop-img{
+	width: 48rpx;
+	height: 48rpx;
+	margin-left: 40rpx;
+	margin-top: 20rpx;
+}
+

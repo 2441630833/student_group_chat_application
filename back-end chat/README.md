@@ -9,8 +9,8 @@ node index.js in loacl testing terminal
 #### docker build
 docker build -t back-end:1.4 .
 ### docker tag and push
-docker tag back-end:1.4 longzezhu/site:back-end-chat
-docker push longzezhu/site:back-end-chat
+docker tag back-end:1.4 'your_docker_repository_name'
+docker push 'your_docker_repository_name'
 #### run mongodb
 sudo docker run -it -p 27017:27017 --name mongodb mongo 
 or 
@@ -19,9 +19,9 @@ sudo docker run -d -p 27017:27017 --name mongodb mongo
 docker run -p 30000:30000 -p 8082:8082 --name back_end_chat --env-file env.list --link mongodb:mongoDB back-end:1.4 
 #### run back-end image in Linux environment
 env > env.list 
-sudo docker run -p 30000:30000 -p 8082:8082 --name back_end_chat --env-file env.list --link mongodb:mongoDB longzezhu/site:back-end-chat  
+sudo docker run -p 30000:30000 -p 8082:8082 --name back_end_chat --env-file env.list --link mongodb:mongoDB 'your_docker_repository_name'  
 
-sudo docker run -d -p 30000:30000 -p 8082:8082 --name back_end_chat --env-file env.list --link mongodb:mongoDB longzezhu/site:back-end-chat 
+sudo docker run -d -p 30000:30000 -p 8082:8082 --name back_end_chat --env-file env.list --link mongodb:mongoDB 'your_docker_repository_name' 
 ### docker operation
 sudo docker ps 
 sudo docker stop 
